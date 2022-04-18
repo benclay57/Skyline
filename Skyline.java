@@ -11,8 +11,11 @@ public class Skyline {
     }
 
     public static void readFile() throws FileNotFoundException {
-        Scanner input = new Scanner(new File("file.txt"));
-        // ...
+        Scanner input = new Scanner(new File("Prog-1-test-1.txt"));
+        while(input.hasNextLine()){
+          System.out.println(input.nextInt());
+          
+        }
       }
 }
 
